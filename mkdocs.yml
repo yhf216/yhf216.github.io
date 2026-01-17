@@ -1,4 +1,8 @@
 site_name: Tippler's Log
-
+site_url: https://yhf216.github.io
 theme:
   name: material
+
+  language: zh
+
+copyright: Copyright © 2026 Tippler. All Rights Reserved.
