@@ -1,5 +1,5 @@
 site_name: Tippler's Log
-site_url: https://yhf216.github.io
+site_url: "https://yhf216.github.io"
 theme:
   name: material
 
