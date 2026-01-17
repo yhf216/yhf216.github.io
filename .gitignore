@@ -1,0 +1,19 @@
+# 忽略 MkDocs 构建产物目录（核心，禁止提交 site/）
+site/
+
+# 忽略 MkDocs 缓存目录
+.cache/
+
+# 忽略 Python 缓存文件
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 忽略 Windows 系统临时文件
+*.tmp
+*.bak
+Thumbs.db
+
+# 忽略 IDE 配置文件（若使用 VS Code 等，可选添加）
+.vscode/
