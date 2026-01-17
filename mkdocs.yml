@@ -2,7 +2,22 @@ site_name: Tippler's Log
 site_url: "https://yhf216.github.io"
 theme:
   name: material
-
   language: zh
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        primary: blue grey
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        primary: black
+        icon: material/brightness-4
+        name: Switch to light mode
 
 copyright: Copyright © 2026 Tippler. All Rights Reserved.
