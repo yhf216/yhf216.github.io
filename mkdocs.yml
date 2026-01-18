@@ -4,20 +4,24 @@ theme:
   name: material
   language: zh
 
-  palette: 
+  palette:
 
     # Palette toggle for light mode
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: yellow
+      accent: yellow
       toggle:
-        primary: blue grey
-        icon: material/brightness-7 
+        icon: material/weather-night
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: deep purple
       toggle:
-        primary: black
-        icon: material/brightness-4
+        icon: material/weather-sunny
         name: Switch to light mode
 
 copyright: Copyright © 2026 Tippler. All Rights Reserved.
