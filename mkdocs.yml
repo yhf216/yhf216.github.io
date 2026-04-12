@@ -9,11 +9,11 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: yellow
-      accent: yellow
+      primary: amber
+      accent: amber
       toggle:
         icon: material/weather-night
-        name: Switch to dark mode
+        name: 切换至深色模式
 
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -22,6 +22,6 @@ theme:
       accent: deep purple
       toggle:
         icon: material/weather-sunny
-        name: Switch to light mode
+        name: 切换至浅色模式
 
 copyright: Copyright © 2026 Tippler. All Rights Reserved.
