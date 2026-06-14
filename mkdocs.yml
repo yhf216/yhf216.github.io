@@ -24,7 +24,12 @@ theme:
         name: 切换至浅色模式
 
 nav:
-  - 主页: index.md
-  - 观点与反思: opinions/零碎的观点.md
+  - 主页:
+      - index.md
+  - 观点与反思:
+      - 零碎的观点: opinions/零碎的观点.md
+  - 随笔:
+      - 20260223: writings/20260223.md
+      - 20260216: writings/20260216.md
 
 copyright: Copyright © 2026 Tippler. All Rights Reserved.
